@@ -1,6 +1,7 @@
 {
   "name": "csv_matchy",
   "version": "1.0.1",
+  "type": "module",
   "description": "This library provides functionality to upload CSV files, match the file header with existing options, and validate the contents of the CSV files based on predefined conditions. The validation includes checking for mandatory fields, maximum or minimum length, and data type (string, integer, boolean, float, or regex pattern).",
   "main": "main.js",
   "scripts": {
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@types/date-fns": "^2.6.3",
-    "@types/xlsx": "^0.0.36"
+    "@types/xlsx": "^0.0.36",
+    "typescript": "^5.9.3"
   }
 }
